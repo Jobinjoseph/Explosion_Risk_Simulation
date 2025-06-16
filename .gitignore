@@ -1,0 +1,51 @@
+# R specific
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+.Rproj.user/*
+.Rproj.user/**
+
+# RStudio specific
+.Rproj.user/
+.Rproj.user/**/
+.Rproj.user/*
+
+# Compiled files
+*.o
+*.so
+*.dll
+
+# Cache and session files
+*.rdb
+*.rdx
+*.RData
+*.Rhistory
+*.Rproj
+
+# Temporary or backup files
+*~
+*.tmp
+*.swp
+*.bak
+*.log
+
+# Excel temp and system files
+~$*.xlsx
+*.lock
+
+# OneDrive / Windows specific
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.lnk
+
+# Output folders
+/output/
+/results/
+__pycache__/
+
+# Example input/output
+example_input.xlsx
