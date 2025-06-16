@@ -1,13 +1,13 @@
 # 💥 Explosion Risk Model
 
-This R project calculates explosion risks in bunker and tunnel structures using formulas from the **TLM ** guidelines. It automates several engineering steps, including overpressure estimation, duration of impact, and wall friction adjustments.
+This R project calculates individual and collective explosion risks for people near explosion storage facilities using formulas from the **TLM ** guidelines. It automates several engineering steps, including overpressure estimation, duration of impact, and wall friction adjustments.
 
 ---
 
 ## 📁 Structure
 
-- `main_script.R` – Main script to run the calculation
-- `WA_Lager_functions.R` – Contains all modular functions used in the calculation
+- `Personen_Kollektives_Risiko.R` – Main script to run the calculation
+- `Explosion_Risk_functions.R` – Contains all modular functions used in the calculation
 - `data/example_input.xlsx` – Example Excel input file (can be replaced with your own)
 - `packages.R` – Script to install and load required R packages
 - `requirements.txt` – Informational list of required R packages
@@ -23,8 +23,8 @@ This R project calculates explosion risks in bunker and tunnel structures using 
 
 2. Open R or RStudio and run:
 source("packages.R")           # Install and load required packages
-source("WA_Lager_functions.R") # Load all functions
-source("main_script.R")        # Run the main workflow
+source("Explosion_Risk_functions.R") # Load all functions
+source("Personen_Kollektives_Risiko.R")        # Run the main workflow
 3. Results will be printed in the console or written to file, depending on the script logic.
 4. Input Format
 The input is expected as an Excel file (.xlsx) with fields such as:
